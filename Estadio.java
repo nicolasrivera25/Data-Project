@@ -54,7 +54,7 @@ public class Estadio {
      * - Las operaciones de búsqueda y eliminación son rápidas (O(1)).
      */
     private void initializeSeats() {
-        for (int i = 1; i <= 1; i++) {
+        for (int i = 1; i <= 500; i++) {
             availableSeats.add(new Asiento("Field Level", 1, i));
         }
         for (int i = 1; i <= 1000; i++) {
